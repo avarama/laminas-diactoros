@@ -91,7 +91,7 @@ When no cookie array is supplied, `fromGlobals` will first try to parse the supp
 before falling back to the `$_COOKIE` superglobal. This is done because PHP has some legacy handling
 for request parameters which were then registered as global variables. Due to this, cookies with a period
 in the name were renamed with underlines. By getting the cookies directly from the cookie header, you have
-access to the original cookies in the way you set them in your application and they are send by the user
+access to the original cookies in the way you set them in your application and they are sent by the user
 agent.
 
 > #### Strict Content- header matching
